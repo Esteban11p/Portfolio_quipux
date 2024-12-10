@@ -51,3 +51,41 @@
 	font-display: swap;
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+
+body{
+	background-color: white;
+}
+
+.pieDePagina{
+	width: auto;
+	height: 100px;
+	background-color: gainsboro;
+	padding: 20px;
+  }
+
+  .tools-links{
+	margin: 10px;
+	float: right;
+	
+  }
+
+  .tools-links button{
+	width: 30px;
+	height: 30px;
+	padding: 5px;
+	border: 0px;
+	border-radius: 5px;
+	background-color: #1CA5FF;
+	margin-left: 10px;
+	cursor: pointer;
+	transition: 500ms ease;
+  }
+
+  .tools-links button:hover{
+	background-color: rgb(25, 25, 131);
+  }
+
+  .tools-links button i{
+	font-size: 22px;
+	color: #f1f1f1;
+  }
